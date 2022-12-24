@@ -8,8 +8,8 @@ def init_state(at: Atri):
     The argument "at" is a dictionary that has initial values set from visual editor.
     Changing values in this dictionary will modify the intial state of the app.
     """
-    at.bar1.custom.data = [{"x":2022, "category1":40, "category2":50}, 
-                           {"x":2021, "category1":30, "category2":60}]
+    at.bar1.custom.data = [{"x":2020, "category1":60, "category2":30}, 
+                           {"x":2022, "category1":50, "category2":20}]
     pass
 
 def handle_page_request(at: Atri, req: Request, res: Response, query: str):
