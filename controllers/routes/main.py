@@ -14,7 +14,7 @@ def init_state(at: Atri):
 
 def handle_page_request(at: Atri, req: Request, res: Response, query: str):
     """
-    This function is called whenever a user loads this route in the browser.
+    This function is called when ever a user loads this route in the browser.
     """
     pass
 
