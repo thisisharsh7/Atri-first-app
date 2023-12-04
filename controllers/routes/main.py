@@ -9,7 +9,7 @@ def init_state(at: Atri):
     Changing values in this dictionary will modify the intial state of the app.
     """
     at.bar1.custom.data = [{"x":2020, "category1":60, "category2":30}, 
-                           {"x":2022, "category1":50, "category2":20}]
+                           {"x":2023, "category1":100, "category2":20}]
     pass
 
 def handle_page_request(at: Atri, req: Request, res: Response, query: str):
